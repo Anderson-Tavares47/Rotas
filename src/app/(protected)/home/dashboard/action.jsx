@@ -11,6 +11,9 @@ export async function getCoordinates(address) {
         addressdetails: 1,
         limit: 1,
       },
+       headers: {
+        'User-Agent': 'MeuApp/1.0 (https://meusite.com; contato@meusite.com)',
+      },
     });
 
     console.log(response.data, 'aqui response');
