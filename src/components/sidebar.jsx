@@ -73,7 +73,7 @@ export default function Sidebar({ isSidebarOpen, toggleSidebar }) {
         {/* Lista de Links */}
         <List sx={{ width: '100%', alignItems: 'center' }}>
           <ListItem key="home" disablePadding>
-            <ListItemButton component={Link} href="/dashboard" sx={{
+            <ListItemButton component={Link} href="dashboard" sx={{
               justifyContent: 'center',
               paddingLeft: '35px',
               '&:hover': {
@@ -90,7 +90,7 @@ export default function Sidebar({ isSidebarOpen, toggleSidebar }) {
             </ListItemButton >
           </ListItem>
           <ListItem key="driver-form" disablePadding>
-            <ListItemButton component={Link} href="/motorista" sx={{
+            <ListItemButton component={Link} href="motorista" sx={{
               justifyContent: 'center',
               paddingLeft: '35px',
               '&:hover': {
@@ -107,7 +107,7 @@ export default function Sidebar({ isSidebarOpen, toggleSidebar }) {
             </ListItemButton>
           </ListItem>
           <ListItem key="vehicle-form" disablePadding>
-            <ListItemButton component={Link} href="/veiculos" sx={{
+            <ListItemButton component={Link} href="veiculos" sx={{
               justifyContent: 'center',
               paddingLeft: '35px',
               '&:hover': {
@@ -124,7 +124,7 @@ export default function Sidebar({ isSidebarOpen, toggleSidebar }) {
             </ListItemButton>
           </ListItem>
           <ListItem key="operation-form" disablePadding>
-            <ListItemButton component={Link} href="/operacao" sx={{
+            <ListItemButton component={Link} href="operacao" sx={{
               justifyContent: 'center',
               paddingLeft: '35px',
               '&:hover': {
@@ -141,7 +141,7 @@ export default function Sidebar({ isSidebarOpen, toggleSidebar }) {
             </ListItemButton>
           </ListItem>
           <ListItem key="gps" disablePadding>
-            <ListItemButton component={Link} href="/gps" sx={{ 
+            <ListItemButton component={Link} href="gps" sx={{ 
               justifyContent: 'center',
               paddingLeft: '35px',
               '&:hover': {
